@@ -1,0 +1,15 @@
+.kutsinta-modal{
+   overflow: hidden;
+    margin: 3px;
+
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+}
+.kutsinta-img{
+    padding-top: 20px;
+    padding-right: 5px;
+    float: right;
+    width: 100px;
+    height: 100%;
+}
