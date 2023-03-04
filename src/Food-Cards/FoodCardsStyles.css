@@ -1,0 +1,167 @@
+/*                            KUTSINA CSS */
+.kutsinta-modal{
+   overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+    margin-bottom: 5px;
+
+}
+.kutsinta-img{
+    padding: 2px 5px 2px 0px;
+    /* padding-right: 5px; */
+    /* float: right; */
+    width: 159px;
+    height: 148px;
+}
+.kutsinta-imgSpecial{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+.modal-content{
+    background-color: white;
+}
+
+.modal {
+    --bs-modal-width: 800px;
+}
+
+
+/*                                            MAJA-BLANCA CSS */
+.maja-blanca-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.majaB-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            PUFF BALL CSS */
+.puff-ball-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.puffB-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            TINUDOK CSS */
+.tinudok-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.tinudok-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            BADUYA CSS */
+.baduya-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.baduya-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            BUTCHI CSS */
+.butchi-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.butchi-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+
+/*                                            BIBINGKA CSS */
+.bibingka-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.bibingka-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            RICEPUTO CSS */
+.rice-puto-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.rice-puto-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}
+
+/*                                            PITCHIE CSS */
+.pitchie-modal{
+    overflow: hidden;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 3px;
+
+    margin-bottom: 5px;
+}
+
+.pitchie-img{
+    float: right;
+    padding: 2px 5px 2px 0px;
+    width: 200px;
+    height: 148px;
+}

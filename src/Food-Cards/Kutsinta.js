@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Row from 'react-bootstrap/Row';
 
-import './KutsintaStyles.css';
+import './FoodCardsStyles.css';
 
 import FOOD1 from '../Images/kutsinta.jpg';
 
@@ -29,36 +30,46 @@ function Kutsinta() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Puto Kutsinta</Modal.Title>
+          <Modal.Title className=''><h3><em>Puto Kutsinta</em></h3></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className='kutsinta-modal'>
-          <img src={FOOD1} className='kutsinta-img'></img>
-            <h3>Kutsinta-Niyog</h3>
-            <p>I will not close if you click outside me. Don't even try to press
-          escape key.</p>
+          <Row>
+          <div className='kutsinta-modal col-lg-4'>
+          <img src={FOOD1} alt='ALz' className='kutsinta-img'></img>
+            <h3>Kutsinta Niyog Toppings</h3>
+            <p>Order now and get extra pieces</p>
             <h5>Price: ₱ 5.00</h5>
           </div>
 
-          <div className='kutsinta-modal'>
-            <h3>Kutsinta-Cheese</h3>
-            <p>I will not close if you click outside me. Don't even try to press
-          escape key.</p>
+          <div className='kutsinta-modal col-lg-4'>
+          <img src={FOOD1} alt='ALz' className='kutsinta-img'></img>
+            <h3>Kutsinta Cheese Toppings</h3>
+            <p>Order now and get extra pieces</p>
             <h5>Price: ₱ 10.00</h5>
           </div>
 
+          <div className='kutsinta-modal col-lg-4'>
+          <img src={FOOD1} alt='ALz' className='kutsinta-img'></img>
+            <h3>Kutsinta Round</h3>
+            <p>Order now and get extra pieces</p>
+            <h5>Price: ₱ 25.00</h5>
+          </div>
+          </Row>
+
           <div className='kutsinta-modal'>
-            <h3>Kutsinta-Tray</h3>
-            <p>I will not close if you click outside me. Don't even try to press
-          escape key.</p>
-          <h5>Price: ₱ 250.00</h5>
+          <img src={FOOD1} alt='ALz' className='kutsinta-imgSpecial'></img>
+          <img src={FOOD1} alt='ALz' className='kutsinta-imgSpecial'></img>
+            <h3>Kutsinta in Tray</h3>
+            <p><b>₱1.00</b> -> Niyog toppings</p>
+            <p><b>₱2.00</b> -> Cheese toppings</p>
+          <h5>Price: start at  ₱200.00</h5>
           </div>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Back
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary">Order Now</Button>
         </Modal.Footer>
       </Modal>
     </>
