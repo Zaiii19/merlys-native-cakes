@@ -1,4 +1,7 @@
 /*                            KUTSINA CSS */
+.foods{
+    
+}
 .kutsinta-modal{
    overflow: hidden;
     border-style: dashed;
@@ -11,14 +14,16 @@
     padding: 2px 5px 2px 0px;
     /* padding-right: 5px; */
     /* float: right; */
-    width: 159px;
+    width: 170px;
     height: 148px;
+    border-radius: 10px;
 }
 .kutsinta-imgSpecial{
     float: right;
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 .modal-content{
     background-color: white;
@@ -44,6 +49,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            PUFF BALL CSS */
@@ -61,6 +67,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            TINUDOK CSS */
@@ -78,6 +85,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            BADUYA CSS */
@@ -95,6 +103,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            BUTCHI CSS */
@@ -112,6 +121,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 
@@ -130,6 +140,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            RICEPUTO CSS */
@@ -147,6 +158,7 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }
 
 /*                                            PITCHIE CSS */
@@ -164,4 +176,5 @@
     padding: 2px 5px 2px 0px;
     width: 200px;
     height: 148px;
+    border-radius: 10px;
 }

@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import './FoodCardsStyles.css';
 
 import FOOD1 from '../Images/kutsinta.jpg';
+import KROUND from '../Images/kutsinta-round.jpg'; 
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -19,9 +20,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD1} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}
@@ -49,7 +50,7 @@ function Kutsinta() {
           </div>
 
           <div className='kutsinta-modal col-lg-4'>
-          <img src={FOOD1} alt='ALz' className='kutsinta-img'></img>
+          <img src={KROUND} alt='ALz' className='kutsinta-img'></img>
             <h3>Kutsinta Round</h3>
             <p>Order now and get extra pieces</p>
             <h5>Price: ₱ 25.00</h5>

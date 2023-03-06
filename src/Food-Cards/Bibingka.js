@@ -5,6 +5,8 @@ import Modal from 'react-bootstrap/Modal';
 import './FoodCardsStyles.css';
 
 import FOOD7 from '../Images/bibingka.jpg';
+import BDIKET from '../Images/bibingka-diket.jpg';
+import BKAHOY from '../Images/bibingka-kahoy.jpg';
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -18,9 +20,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD7} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}
@@ -33,14 +35,14 @@ function Kutsinta() {
         </Modal.Header>
         <Modal.Body>
           <div className='bibingka-modal'>
-          <img src={FOOD7} alt='ALz' className='bibingka-img'></img>
+          <img src={BDIKET} alt='ALz' className='bibingka-img'></img>
             <h3>Bibingka Diket</h3>
             <p><b>₱120.00</b> -> Whole</p>
             <p><b>₱60.00</b> -> Half</p>
           </div>
 
           <div className='bibingka-modal'>
-          <img src={FOOD7} alt='ALz' className='bibingka-img'></img>
+          <img src={BKAHOY} alt='ALz' className='bibingka-img'></img>
             <h3>Bibingka Kahoy</h3>
             <p><b>₱120.00</b> -> Whole</p>
             <p><b>₱60.00</b> -> Half</p>

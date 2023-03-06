@@ -4,7 +4,8 @@ import Modal from 'react-bootstrap/Modal';
 
 import './FoodCardsStyles.css';
 
-import FOOD3 from '../Images/puff-ball.png';
+import PBUCKET from '../Images/puff-ball.png'; 
+import PBAG from '../Images/puff-ball-bag.jpg';
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -18,9 +19,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
-          <img src={FOOD3} alt='ALZ'className='foods'/>
-      </button>
+      <div onClick={handleShow}>
+          <img src={PBUCKET} alt='ALZ'className='foods'/>
+      </div>
 
       <Modal
         show={show}
@@ -33,14 +34,14 @@ function Kutsinta() {
         </Modal.Header>
         <Modal.Body>
           <div className='puff-ball-modal'>
-          <img src={FOOD3} alt='ALz' className='puffB-img'></img>
+          <img src={PBAG} alt='ALz' className='puffB-img'></img>
             <h3>Puff Ball</h3>
             <p>5 pieces in a bag</p>
             <h5>Price: ₱ 10.00</h5>
           </div>
 
           <div className='puff-ball-modal'>
-          <img src={FOOD3} alt='ALz' className='puffB-img'></img>
+          <img src={PBUCKET} alt='ALz' className='puffB-img'></img>
             <h3>Puff Ball Bucket</h3>
             <p><b>₱2.00</b> -> per piece</p>
           <h5>Minimum order of ₱ 100.00</h5>
@@ -48,9 +49,9 @@ function Kutsinta() {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Back
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary">Order Now</Button>
         </Modal.Footer>
       </Modal>
     </>

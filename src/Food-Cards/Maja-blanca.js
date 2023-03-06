@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import './FoodCardsStyles.css';
 
-import FOOD2 from '../Images/maja-blanca.png';
+import FOOD2 from '../Images/maja-blanca.jpg';
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -18,9 +18,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD2} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}

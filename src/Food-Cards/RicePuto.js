@@ -4,7 +4,8 @@ import Modal from 'react-bootstrap/Modal';
 
 import './FoodCardsStyles.css';
 
-import FOOD8 from '../Images/rice-puto.jpg';
+import FOOD8 from '../Images/rice-puto.jpg'; 
+import PUTO10 from '../Images/rice-puto-5.jpg';
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -18,9 +19,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD8} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}
@@ -33,7 +34,7 @@ function Kutsinta() {
         </Modal.Header>
         <Modal.Body>
           <div className='pitchie-modal'>
-          <img src={FOOD8} alt='ALz' className='pitchie-img'></img>
+          <img src={PUTO10} alt='ALz' className='pitchie-img'></img>
             <h3>Rice Puto</h3>
             <p>5 pieces per bag</p>
             <p><b>₱10.00</b></p>

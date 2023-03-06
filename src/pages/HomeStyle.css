@@ -70,10 +70,12 @@ body::-webkit-scrollbar{
 .food-item1{
     text-align: center;
     /* overflow: hidden; */
+    border-radius: 25px;
 }
 .foods{
     height: 200px;
-    width: 200px;
+    width: 250px;
+    border-radius: 70px;
 }
 
 .row-2{

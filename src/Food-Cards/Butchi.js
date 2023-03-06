@@ -18,9 +18,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD5} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}

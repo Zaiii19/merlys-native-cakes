@@ -4,7 +4,8 @@ import Modal from 'react-bootstrap/Modal';
 
 import './FoodCardsStyles.css';
 
-import FOOD6 from '../Images/butchi.jpg';
+import BBUTCHIE from '../Images/butchi.jpg'; 
+import BUTCHIE from '../Images/butchi-piece.jpg';
 
 function Kutsinta() {
   const [show, setShow] = useState(false);
@@ -18,9 +19,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
-          <img src={FOOD6} alt='ALZ'className='foods'/>
-      </button>
+      <div onClick={handleShow}>
+          <img src={BBUTCHIE} alt='ALZ'className='foods'/>
+      </div>
 
       <Modal
         show={show}
@@ -33,26 +34,25 @@ function Kutsinta() {
         </Modal.Header>
         <Modal.Body>
           <div className='butchi-modal'>
-          <img src={FOOD6} alt='ALz' className='butchi-img'></img>
+          <img src={BUTCHIE} alt='ALz' className='butchi-img'></img>
             <h3>Butchi</h3>
             <p>CHeese filling.</p>
             <h5>Price: ₱ 5.00</h5>
           </div>
 
           <div className='butchi-modal'>
-          <img src={FOOD6} alt='ALz' className='butchi-img'></img>
+          <img src={BBUTCHIE} alt='ALz' className='butchi-img'></img>
             <h3>Butchi-Bucket</h3>
             <p>Available for customized filling.</p>
             <p><b>₱5.00</b> -> Regular</p>
             <p><b>₱10.00</b> -> Costumized</p>
-          <h5>Price: ₱ 250.00</h5>
           </div>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Back
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary">Order Now</Button>
         </Modal.Footer>
       </Modal>
     </>

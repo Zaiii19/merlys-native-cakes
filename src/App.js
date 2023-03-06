@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About'
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 import Kutsinta from './Food-Cards/Kutsinta';
 
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/" element={<Home/>}/>
       <Route exact path="/home" element={<Home/>}/>
       <Route exact path="/about" element={<About/>}/>
+      <Route exact path="/contact" element={<Contact/>}/>
       <Route exact path="/kutsinta" element={<Kutsinta/>}/>
     </Routes>
       <Footer/>

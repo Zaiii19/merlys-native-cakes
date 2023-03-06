@@ -1,0 +1,39 @@
+
+.con-left{
+    background-color: sandybrown;
+    margin-left: 5px;
+    margin-right: 0px;
+
+    padding-right: 0px;
+}
+
+
+.con-right{
+    background-color: rgb(106, 92, 240);
+    margin-right: 5px;
+    margin-left: 0px;
+
+    padding-left: 0px;
+   
+}
+.map{
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+   
+}
+.g-map{
+    height: 450px;
+    width: 100%;
+}
+
+/* *********************************REMOVE MARGIN BOTTOM */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+
+/* **********************************REMOVE SPACE BETWEEN COLUMNS */
+.row {
+    --bs-gutter-x: 0px;
+}

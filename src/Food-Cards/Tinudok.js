@@ -18,9 +18,9 @@ function Kutsinta() {
         Launch static backdrop modal
       </Button> */}
 
-      <button onClick={handleShow}>
+      <div onClick={handleShow}>
           <img src={FOOD4} alt='ALZ'className='foods'/>
-      </button>
+      </div>
 
       <Modal
         show={show}
@@ -48,9 +48,9 @@ function Kutsinta() {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Back
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary">Order Now</Button>
         </Modal.Footer>
       </Modal>
     </>

@@ -65,7 +65,7 @@ class Navbar extends Component {
               </li>
               <li>
                 {/* <a href="index.html">About</a> */}
-                <Nav.Link as={NavLink} exact to="/about">Contact</Nav.Link>
+                <Nav.Link as={NavLink} exact to="/contact">Contact</Nav.Link>
               </li>
               {/* <li>
                 <a href="index.html">Skills</a>
